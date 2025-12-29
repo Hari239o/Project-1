@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobby</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+    <legend> full form</legend>
+    <br>
+    <label for="name">name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your Name">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <br>
+    <label for="date">Date of Birth</label>
+    <input type="date" id="date" name="date"placeholder>
+    <br>    
+    <label>gender</label>
+    <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+    <input type="radio" name="gender">custom
+    <br>
+    </fieldset>
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="course">Programming Skills</label>
+        <select name="course" id="course">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+            <option value="python">python</option>
+            <option value="java">java</option>
+        </select>
+        <br>
+        <label for="">Electrical skills</label>
+        <input type="checkbox" name="electrical_skills" id="">circuit design
+        <input type="checkbox" name="electrical_skills" id="">pcb designing
+        <input type="checkbox" name="electrical_skills" id="">microcontroller programming
+    <br>
+    <label for="startdate">course start</label>
+    <input type="datetime-local" name="Start" id="startdate">
+    <label for="years">Years of experience</label>
+    <input type="range" name="years" id="years" min="0" max="10">
+    <br>
+    <label for="update portfolio">update portfolio</label>
+    <input type="file" name="update portfolio" id="update portfolio">
+        <br>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+
+        
+    </fieldset>    
+    </form>
+</body>
+</html>

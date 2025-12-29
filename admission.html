@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend> Admission Form </legend>
+            <label for="name"> Full Name</label>
+            <input type="text" id="name" name="Full Name" placeholder="Enter your Full Name">
+            <br>
+            <label for="email"> Email </label>
+            <input type="Email" id="email" name="Email" placeholder="Enter your email">
+            <br>
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" name="Phone Number" placeholder="Enter your phone number">
+            <br>
+            <label > select department </label>
+            <select name="department" >
+                <option value="computer science"> Computer Science </option>
+                <option value="mechanical"> Mechanical </option>
+                <option value="civil"> Civil </option>
+                <option value="electronics"> Electronics </option>
+            </select>
+            <br>
+            <label>Choose languages known </label>
+            <input type="Checkbox" name="languages" value="english"> English
+            <input type="Checkbox" name="languages" value="hindi"> Hindi
+            <input type="Checkbox" name="languages" value="tamil"> Tamil
+            <input type="Checkbox" name="languages" value="telugu"> Telugu
+            <br>
+            <label for="file">upload file</label>
+            <input type="file" id="file" name="upload file" >
+            <br>
+            <label>Address</label>
+            <br>
+            <textarea name="address" rows="5" cols="30" placeholder="Enter your address"></textarea>
+            <br>
+            </fieldset>
+            <button type="submit"> Submit </button>
+            <button type="reset"> Reset </button>
+        
+    </form>
+    
+</body>
+</html>
